@@ -32,16 +32,16 @@ DIR:
 
 Details:
 1. Queries Folder
-	Queries.sql (Task 1.3 and 1.4)(Task 2)<br />
+&nbsp;&nbsp;&nbsp;&nbsp;Queries.sql (Task 1.3 and 1.4)(Task 2)<br />
 2. Queries Output
-	STG_User_locations(limit 100).csv<br />
-	STG_World_Cities.csv<br />
-	Minium_distance_for_each_location(limit 100).csv<br />
-	Minium_distance_for_each_user(limit 100).csv<br />
-	Histogram_on_distance.csv<br />
+	&nbsp;&nbsp;&nbsp;&nbsp;STG_User_locations(limit 100).csv<br />
+	&nbsp;&nbsp;&nbsp;&nbsp;STG_World_Cities.csv<br />
+	&nbsp;&nbsp;&nbsp;&nbsp;Minium_distance_for_each_location(limit 100).csv<br />
+	&nbsp;&nbsp;&nbsp;&nbsp;Minium_distance_for_each_user(limit 100).csv<br />
+	&nbsp;&nbsp;&nbsp;&nbsp;Histogram_on_distance.csv<br />
 3. Yara_data<br />
-	user_location.csv<br />
-	world_cities.csv<br />
+	&nbsp;&nbsp;&nbsp;&nbsp;user_location.csv<br />
+	&nbsp;&nbsp;&nbsp;&nbsp;world_cities.csv<br />
 4. app.py (Task 4)
 5. main.py (Task 1.1 and 1.2)
 
