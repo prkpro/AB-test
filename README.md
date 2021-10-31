@@ -31,9 +31,9 @@ DIR:
 ```
 
 Details:
-1. Queries Folder
+1. Queries Folder<br />
 &nbsp;&nbsp;&nbsp;&nbsp;Queries.sql (Task 1.3 and 1.4)(Task 2)<br />
-2. Queries Output
+2. Queries Output<br />
 	&nbsp;&nbsp;&nbsp;&nbsp;STG_User_locations(limit 100).csv<br />
 	&nbsp;&nbsp;&nbsp;&nbsp;STG_World_Cities.csv<br />
 	&nbsp;&nbsp;&nbsp;&nbsp;Minium_distance_for_each_location(limit 100).csv<br />
