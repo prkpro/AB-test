@@ -1,8 +1,8 @@
 # Yara 
 PROCESS FOLLOWED:
-1. Extracting and Cleaning the csv data.
-	a) Checked for Non-numeric(lat,lng) value in user_location
-	b) Removed rows Nan values
+1. Extracting and Cleaning the csv data.<br />
+	a) Checked for Non-numeric(lat,lng) value in user_location<br />
+	b) Removed rows Nan values<br />
 2. Loading the raw data to the PostgreSQL server.
 3. Derived a Staging table for both "user_location" and "world_cities" (with derived geometry column).
 4. Queries and Stored closest city with distance to DER_Nearest_distance (This will fulfill Task 1.3 and Task 1.4).
@@ -32,16 +32,16 @@ DIR:
 
 Details:
 1. Queries Folder
-	Queries.sql (Task 1.3 and 1.4)(Task 2)
+	Queries.sql (Task 1.3 and 1.4)(Task 2)<br />
 2. Queries Output
-	STG_User_locations(limit 100).csv
-	STG_World_Cities.csv
-	Minium_distance_for_each_location(limit 100).csv
-	Minium_distance_for_each_user(limit 100).csv
-	Histogram_on_distance.csv
-3. Yara_data
-	user_location.csv
-	world_cities.csv
+	STG_User_locations(limit 100).csv<br />
+	STG_World_Cities.csv<br />
+	Minium_distance_for_each_location(limit 100).csv<br />
+	Minium_distance_for_each_user(limit 100).csv<br />
+	Histogram_on_distance.csv<br />
+3. Yara_data<br />
+	user_location.csv<br />
+	world_cities.csv<br />
 4. app.py (Task 4)
 5. main.py (Task 1.1 and 1.2)
 
