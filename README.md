@@ -10,7 +10,27 @@ PROCESS FOLLOWED:
 distance.
 6. Queried and stored histogram.
 
-IN THE REPO:
+DIR:
+
+```bash
+├── Queries
+│   ├── Queries.sql
+├── Queries Output
+│   ├── STG_User_locations(limit 100).csv
+│   ├── STG_World_Cities.csv
+│   ├── Minium_distance_for_each_location(limit 100).csv
+│   ├── Minium_distance_for_each_user(limit 100).csv
+│   ├── Histogram_on_distance.csv
+├── Yara Data
+│   ├── user_location.csv
+│   ├── world_cities.csv
+├── app.py
+├── main.py
+├── README.md
+└── Requirements.txt
+```
+
+Details:
 1. Queries Folder
 	Queries.sql (Task 1.3 and 1.4)(Task 2)
 2. Queries Output
@@ -24,8 +44,6 @@ IN THE REPO:
 	world_cities.csv
 4. app.py (Task 4)
 5. main.py (Task 1.1 and 1.2)
-6. readme.md
-7. Requirement.txt (Auto generated)
 
 STEPS : 
 
